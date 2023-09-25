@@ -12,27 +12,16 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
     private bool isGrounded = false;
     private bool isJumping;
-
-
-    private float currentHealth;
-    private float maxHealth = 100;
-
-    [SerializeField] private Healthbar healthbar;
+ 
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-        currentHealth = maxHealth;
-        healthbar.UpdateHealthBar(maxHealth, currentHealth);
     }
 
     private void Update()
     {
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            OnMouseClick();
-        }
 
         // Player movement.
         float moveHorizontal = Input.GetAxis("Horizontal");
@@ -49,21 +38,7 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = false;
         }
 
-        void OnMouseClick()
-        {
-            currentHealth -= 5f;
-
-            if (currentHealth <= 0)
-            {
-
-                Destroy(gameObject);
-            }
-            else
-            {
-                healthbar.UpdateHealthBar(maxHealth, currentHealth);
-
-            }
-        }
+        
     }
 
 
