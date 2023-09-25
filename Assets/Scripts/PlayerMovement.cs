@@ -10,8 +10,9 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayer;           // Layer mask to define what is considered ground.
 
     private Rigidbody rb;
-    private bool isGrounded;
+    private bool isGrounded = false;
     private bool isJumping;
+
 
     private float currentHealth;
     private float maxHealth = 100;
@@ -27,13 +28,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        // Check if the player is grounded.
-        isGrounded = Physics.CheckSphere(groundCheck.position, 0.1f, groundLayer);
-        if(isGrounded == true)
-        {
-            Debug.Log("YAY IM ON THE GROUND");
-        }
-
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -49,13 +43,10 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector3(movement.x, rb.velocity.y, movement.z);
 
         // Player jump.
-        if (isGrounded && isJumping == false && Input.GetButtonDown("Jump"))
+        if (isGrounded && Input.GetButtonDown("Jump"))
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            isJumping = true;
-        } else
-        {
-            isJumping = false;
+            isGrounded = false;
         }
 
         void OnMouseClick()
@@ -72,9 +63,15 @@ public class PlayerMovement : MonoBehaviour
                 healthbar.UpdateHealthBar(maxHealth, currentHealth);
 
             }
-
         }
+    }
 
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.name == "Floor")
+        {
+            isGrounded = true;
+        }
     }
 }
