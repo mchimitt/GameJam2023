@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: 716adfaca3610744eb3cd9f4e58a5e5b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chickenwing_attackUp_0
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 34
+        width: 143
+        height: 227
+      alignment: 9
+      pivot: {x: 0.72151005, y: 0.4339635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55ca35c9ca5f1a4b9e346d17dcef227
+      internalID: 116821752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chickenwing_attackUp_1
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 34
+        width: 153
+        height: 229
+      alignment: 9
+      pivot: {x: 0.67434275, y: 0.4339635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70328d540a12a1046ab7e978c1adfe94
+      internalID: -476877351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chickenwing_attackUp_2
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 31
+        width: 194
+        height: 232
+      alignment: 9
+      pivot: {x: 0.56874824, y: 0.4339635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15b92d92cc45e84cad70e6d4cc1431b
+      internalID: 1364083190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chickenwing_attackUp_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 36
+        width: 143
+        height: 222
+      alignment: 9
+      pivot: {x: 0.72151, y: 0.43396354}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effd13ce78e76424fbccb19350df77db
+      internalID: -1872442193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chickenwing_attackUp_6
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 34
+        width: 147
+        height: 229
+      alignment: 9
+      pivot: {x: 0.71548235, y: 0.4339635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b1e64062d6ba849a74728a7626dd70
+      internalID: -1050181325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chickenwing_attackUp_7
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 33
+        width: 209
+        height: 226
+      alignment: 9
+      pivot: {x: 0.50797665, y: 0.4339635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d119b3c416579e64581c5b06affe3960
+      internalID: -315149469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chickenwing_attackUp_8
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 32
+        width: 186
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5537792, y: 0.4339635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5055978d9e90b48ba415e387854fd0
+      internalID: 17990819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chickenwing_attackUp_10
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 33
+        width: 166
+        height: 220
+      alignment: 9
+      pivot: {x: 0.6205165, y: 0.4339635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46328c5bb76975d469041c403b120ca4
+      internalID: -1941206782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chickenwing_attackUp_11
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 34
+        width: 149
+        height: 217
+      alignment: 9
+      pivot: {x: 0.70140046, y: 0.4339635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a410096c3c0d2f14a8746151193f89f8
+      internalID: 1817780810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2a1fa0d861fbf0141a983ec9e6e660ba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      chickenwing_attackUp_0: 116821752
+      chickenwing_attackUp_1: -476877351
+      chickenwing_attackUp_10: -1941206782
+      chickenwing_attackUp_11: 1817780810
+      chickenwing_attackUp_12: 565466688
+      chickenwing_attackUp_2: 1364083190
+      chickenwing_attackUp_3: -235930862
+      chickenwing_attackUp_4: 1062118653
+      chickenwing_attackUp_5: -1872442193
+      chickenwing_attackUp_6: -1050181325
+      chickenwing_attackUp_7: -315149469
+      chickenwing_attackUp_8: 17990819
+      chickenwing_attackUp_9: 712601930
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

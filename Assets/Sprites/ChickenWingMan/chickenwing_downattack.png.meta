@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 5b21c9110bccac049aaa515bfaab6208
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chickenwing_downattack_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 44
+        width: 50
+        height: 64
+      alignment: 9
+      pivot: {x: 0.2793805, y: 0.49999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371f01e3b886d344597bccc5d0c13580
+      internalID: -369203736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chickenwing_downattack_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 45
+        width: 50
+        height: 63
+      alignment: 9
+      pivot: {x: 0.29235825, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92caea1f13e7a9b4ab3e0263c19655a9
+      internalID: 114750474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chickenwing_downattack_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 30
+        width: 61
+        height: 76
+      alignment: 9
+      pivot: {x: 0.25534007, y: 0.50853777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dacd1458a5d0dc429788f815e36084e
+      internalID: 1222571284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chickenwing_downattack_5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 7
+        width: 106
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5550937, y: 0.63954425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2f730b86670f0429b0f2d0d0eb428e
+      internalID: 504323251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chickenwing_downattack_7
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 6
+        width: 83
+        height: 99
+      alignment: 9
+      pivot: {x: 0.554725, y: 0.6310871}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6278ed314386af440b08a0ad91a531fd
+      internalID: -680988637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chickenwing_downattack_8
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 14
+        width: 69
+        height: 93
+      alignment: 9
+      pivot: {x: 0.48119187, y: 0.6465215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14bc15345b8d6f4fab3767367fdb26a
+      internalID: -1813303141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chickenwing_downattack_10
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 43
+        width: 72
+        height: 64
+      alignment: 9
+      pivot: {x: 0.490988, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0f082f1c009cc4585868ad0f22f144
+      internalID: 253800677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chickenwing_downattack_11
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 44
+        width: 50
+        height: 63
+      alignment: 9
+      pivot: {x: 0.2664026, y: 0.48970008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a040a1940e0120a45968fc670b908ead
+      internalID: -108339821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4fe3f44a0f1f1714388a016fd95d3ce3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      chickenwing_downattack_0: -369203736
+      chickenwing_downattack_1: 114750474
+      chickenwing_downattack_10: 253800677
+      chickenwing_downattack_11: -108339821
+      chickenwing_downattack_12: 1422822252
+      chickenwing_downattack_13: -1791197786
+      chickenwing_downattack_14: 1746516250
+      chickenwing_downattack_15: 2051752687
+      chickenwing_downattack_16: -654228009
+      chickenwing_downattack_2: 1222571284
+      chickenwing_downattack_3: 421678841
+      chickenwing_downattack_4: -2017068070
+      chickenwing_downattack_5: 504323251
+      chickenwing_downattack_6: -686738848
+      chickenwing_downattack_7: -680988637
+      chickenwing_downattack_8: -1813303141
+      chickenwing_downattack_9: -472320965
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

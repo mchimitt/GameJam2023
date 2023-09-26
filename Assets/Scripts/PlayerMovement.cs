@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;           // A reference to an empty GameObject placed at the player's feet.
     public LayerMask groundLayer;           // Layer mask to define what is considered ground.
 
+    [SerializeField] public Animator myAnimator;
+    [SerializeField] SpriteRenderer spriteRenderer;
+
     private Rigidbody rb;
     private bool isGrounded = false;
     private bool isJumping;
@@ -17,6 +20,10 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        if (!myAnimator)
+            myAnimator = GetComponentInChildren<Animator>();
+        if (!spriteRenderer)
+            spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     private void Update()
@@ -38,7 +45,21 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = false;
         }
 
-        
+        //Player walking animation.
+        if (isGrounded && (moveHorizontal != 0 || moveVertical != 0)) //if have extra time, add up and down walking anim
+        {
+            myAnimator.SetBool("isWalking", true);
+            if (moveHorizontal > 0)
+                spriteRenderer.flipX = false;
+            if (moveHorizontal < 0)
+                spriteRenderer.flipX = true;
+        }
+        else
+        {
+            myAnimator.SetBool("isWalking", false);
+        }
+
+
     }
 
 
