@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
 
 
