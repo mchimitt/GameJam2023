@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\Healthbar.cs" />
     <Compile Include="Assets\Scripts\RoomSwitch.cs" />
     <Compile Include="Assets\Scripts\RoomDoor.cs" />
+    <Compile Include="Assets\Scripts\EnemyMeleeMovement.cs" />
     <Compile Include="Assets\Scripts\PressurePlate.cs" />
     <Compile Include="Assets\Scripts\PlayerAttributes.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
