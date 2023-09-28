@@ -1,32 +1,23 @@
 {
-    "name": "PlayerActions",
+    "name": "PlayerControls",
     "maps": [
         {
-            "name": "PlayerInputKeyboard",
-            "id": "4b0f977c-1b23-4e37-9a23-b2160701a36e",
+            "name": "Player Movement",
+            "id": "c5dcaf3e-80bd-4134-9fe5-9ac4e6c23b0f",
             "actions": [
                 {
                     "name": "Movement",
-                    "type": "Value",
-                    "id": "84202c38-92c0-4541-9970-7107b0b2095e",
+                    "type": "PassThrough",
+                    "id": "8e95ae30-a987-4edf-89f5-94619697e235",
                     "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "Attack",
-                    "type": "Button",
-                    "id": "a9d51a96-d2bd-4869-b42f-38a79295178f",
-                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Jump",
+                    "name": "Attack",
                     "type": "Button",
-                    "id": "b1c67b74-cb84-497a-bf34-066b259f4375",
+                    "id": "0e962b84-4963-4bbd-a682-925f4b14d4a3",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -34,123 +25,9 @@
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "d821df2c-041d-47b0-83d9-0a9eddecd108",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Attack",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "WASD",
-                    "id": "9c02b59b-37a1-4506-bc79-40a95ca4c1c8",
-                    "path": "2DVector",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Movement",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "up",
-                    "id": "8ee2f3ef-9713-4015-a151-215aa6ce9672",
-                    "path": "<Keyboard>/w",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "ec3bc7e1-e4d6-4928-992c-4ced81af2a11",
-                    "path": "<Keyboard>/s",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "3d4800b7-36ea-4827-a47e-00b573e71eea",
-                    "path": "<Keyboard>/a",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "right",
-                    "id": "2492895f-bbf5-42d1-82e1-c82c434a0bf4",
-                    "path": "<Keyboard>/d",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "4c4fa273-25c8-4954-8342-4ba4a2a3a4ba",
-                    "path": "<Gamepad>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "PlayerInputController",
-            "id": "d746f94a-3b02-4f01-9801-b3f927c8d3c9",
-            "actions": [
-                {
-                    "name": "Movement",
-                    "type": "Value",
-                    "id": "dacf8d71-563e-4aea-987b-bd37968cf04b",
-                    "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "Attack",
-                    "type": "Button",
-                    "id": "0cc07cab-e419-4523-a79d-2aee50db9030",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "0ea31e61-4fdb-40af-88d6-1bf235926189",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Attack",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "Joystick",
-                    "id": "fc438e3f-8c97-4e99-9c52-066fe7f769c7",
+                    "id": "dbaefb82-efad-4369-ab5b-54a9d281ea3c",
                     "path": "2DVector(mode=2)",
                     "interactions": "",
                     "processors": "",
@@ -161,7 +38,62 @@
                 },
                 {
                     "name": "up",
-                    "id": "3435fcac-e8ee-4392-95e4-250bb7133346",
+                    "id": "92145ca7-233f-4ad1-ad18-d5ec3ba6aefc",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "5e6a4e27-0b2f-48e6-b1c6-449bcbaa5766",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "a18d2200-7a22-4d20-b0a3-6ee8e37fe2b9",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "1fe8332d-73cf-402f-b5aa-d8fd4d3c2bde",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Left Stick",
+                    "id": "2bf884af-e4bd-4c19-9688-719434647411",
+                    "path": "2DVector(mode=2)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "3e5ad84b-14b1-44e5-ae78-87fad6bade70",
                     "path": "<Gamepad>/leftStick/up",
                     "interactions": "",
                     "processors": "",
@@ -172,7 +104,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "a150b96a-6c36-48fa-8e5c-66ee96122ad3",
+                    "id": "09eefa55-8106-4c1d-be67-e91103605281",
                     "path": "<Gamepad>/leftStick/down",
                     "interactions": "",
                     "processors": "",
@@ -183,7 +115,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "8f21cff2-0d45-4508-af10-562f9af632f6",
+                    "id": "6999fb8c-9ea1-4008-8548-862c891c0dd6",
                     "path": "<Gamepad>/leftStick/left",
                     "interactions": "",
                     "processors": "",
@@ -194,7 +126,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "ec07d813-6cc7-477e-88e2-a2be19ab494d",
+                    "id": "086dc647-762a-4669-8e7d-e719d7c301ab",
                     "path": "<Gamepad>/leftStick/right",
                     "interactions": "",
                     "processors": "",
@@ -202,6 +134,17 @@
                     "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "42bb6fcb-16ac-4c55-a05f-5522da20ad33",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
