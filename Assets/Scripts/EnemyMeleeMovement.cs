@@ -7,10 +7,12 @@ public class EnemyMeleeMovement : MonoBehaviour
     public float moveSpeed = 3.0f;
     public float sightRange = 10.0f;
 
-    public Transform target;
-    //public GameObject player2Tracking;
-    //public GameObject player3Tracking;
-    //public GameObject player4Tracking;
+    public Transform target1;
+    public Transform target2;
+    public Transform target3;
+    public Transform target4;
+
+
 
     private Rigidbody rb;
 
@@ -19,9 +21,9 @@ public class EnemyMeleeMovement : MonoBehaviour
     {
 
         // Calculate the direction from the enemy to the player
-        Vector3 direction = (target.position - transform.position).normalized;
+        Vector3 direction = (target1.position - transform.position).normalized;
 
-        // Calculate the desired movement amount
+        // Calculate the  movement amount
         Vector3 movement = direction * moveSpeed * Time.deltaTime;
 
         // Move the enemy towards the player

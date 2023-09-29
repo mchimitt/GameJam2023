@@ -7,17 +7,24 @@ public class PlayerAttributes : MonoBehaviour
 
     [SerializeField] float attackDamage;
     [SerializeField] float speed;
-    [SerializeField] float karma = 50;
+
+    [SerializeField] float maxKarma = 100;
+    [SerializeField] float currentKarma;
+
     [SerializeField] float maxHealth = 100;
     [SerializeField] float currentHealth;
 
     [SerializeField] private Healthbar healthbar;
+    [SerializeField] private KarmaMeter karmaMeter;
     // Start is called before the first frame update
     void Start()
     {
-        karma = 50;
+        //currentKarma = 50;
+        karmaMeter.UpdateKarmaMeter(maxKarma, currentKarma);
+
         currentHealth = maxHealth;
         healthbar.UpdateHealthBar(maxHealth, currentHealth);
+
     }
 
     // Update is called once per frame
@@ -44,5 +51,11 @@ public class PlayerAttributes : MonoBehaviour
             healthbar.UpdateHealthBar(maxHealth, currentHealth);
 
         }
+    }
+
+    public void PlayerPickUp(float karmaValue)
+    {
+
+        karmaMeter.UpdateKarmaMeter(maxKarma, currentKarma+karmaValue);
     }
 }
