@@ -9,6 +9,11 @@ public class NewPlayerMovement : MonoBehaviour
 
     InputAction moveAction;
 
+    [SerializeField] public Animator myAnimator;
+    [SerializeField] SpriteRenderer spriteRenderer;
+    [SerializeField] PlayerJump playerJump;
+
+
     [SerializeField] float speed = 10000000;
 
 
@@ -17,11 +22,12 @@ public class NewPlayerMovement : MonoBehaviour
     {
         playerInput = GetComponent<PlayerInput>();
         moveAction = playerInput.actions.FindAction("Move");
+        playerJump = GetComponent<PlayerJump>();
 
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         MovePlayer();
     }
@@ -30,6 +36,23 @@ public class NewPlayerMovement : MonoBehaviour
     {
         Vector2 direction = moveAction.ReadValue<Vector2>();
         transform.position += new Vector3(direction.x, 0, direction.y) * speed *  Time.deltaTime;
+        Debug.Log(direction);
+
+
+       if ((direction.x != 0 || direction.y != 0)) //if have extra time, add up and down walking anim
+       {
+           myAnimator.SetBool("isWalking", true);
+           if (direction.x > 0)
+               spriteRenderer.flipX = false;
+           if (direction.x < 0)
+               spriteRenderer.flipX = true;
+       }
+        else
+        {
+            myAnimator.SetBool("isWalking", false);
+        }
+
+
     }
 
 }

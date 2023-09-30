@@ -12,7 +12,7 @@ public class PlayerJump : MonoBehaviour
     //Jump Variables
     private Vector3 _playerVelocity;
 
-    private bool _groundedPlayer;
+    public bool _groundedPlayer;
 
     [SerializeField] private float _jumpHeight = 5.0f;
 
@@ -53,7 +53,7 @@ public class PlayerJump : MonoBehaviour
         _characterController.Move(_playerVelocity * Time.deltaTime);
     }
 
-    void OnJump()
+    public void OnJump()
     {
         Debug.Log("Jump pressed");
 
