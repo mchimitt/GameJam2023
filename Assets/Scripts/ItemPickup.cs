@@ -6,21 +6,28 @@ public class ItemPickup : MonoBehaviour
 {
     [SerializeField] float karmaValue;
 
-    private PlayerAttributes itemPowerup;
+    [SerializeField] PlayerAttributes player1Pickup;
+    [SerializeField] PlayerAttributes player2Pickup;
+    [SerializeField] PlayerAttributes player3Pickup;
+    [SerializeField] PlayerAttributes player4Pickup;
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Player grabed item");
-        if (other.tag == "Player")
-        {
-            Debug.Log("item detected player");
 
-            itemPowerup.PlayerPickUp(karmaValue);
+        if (other.tag == "Player1")
+        { 
+            player1Pickup.PlayerPickUp(karmaValue);
 
-            Debug.Log("destroy item");
-            
+
+            gameObject.SetActive(false);
         }
-        
-        Destroy(gameObject);
+
+        if (other.tag == "Player2")
+        {
+            player2Pickup.PlayerPickUp(karmaValue);
+
+
+            gameObject.SetActive(false);
+        }
     }
 }

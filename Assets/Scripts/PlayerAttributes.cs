@@ -14,9 +14,9 @@ public class PlayerAttributes : MonoBehaviour
     [SerializeField] float maxHealth = 100;
     [SerializeField] float currentHealth;
 
-    [SerializeField] private Healthbar healthbar;
-    [SerializeField] private KarmaMeter karmaMeter;
-    // Start is called before the first frame update
+    [SerializeField] Healthbar healthbar;
+    [SerializeField] KarmaMeter karmaMeter;
+
     void Start()
     {
         //currentKarma = 50;
@@ -27,35 +27,18 @@ public class PlayerAttributes : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        //if (Input.GetMouseButtonDown(0))
-        //{
-        //   OnMouseClick();
-        //}
-    }
 
-
-    void OnMouseDown()
-    {
-        currentHealth -= 5f;
-
-        if (currentHealth <= 0)
-        {
-
-            Destroy(gameObject);
-        }
-        else
-        {
-            healthbar.UpdateHealthBar(maxHealth, currentHealth);
-
-        }
-    }
 
     public void PlayerPickUp(float karmaValue)
     {
 
-        karmaMeter.UpdateKarmaMeter(maxKarma, currentKarma+karmaValue);
+        karmaMeter.UpdateKarmaMeter(maxKarma, currentKarma + karmaValue);
+    }
+
+    public void PlayerTakeDamage(float damageValue)
+    {
+        //need to set current health to current - damage val and then subtract again or smth bc ut only works once rn
+        //same for karma prob
+        healthbar.UpdateHealthBar(maxHealth, currentHealth - damageValue);
     }
 }
