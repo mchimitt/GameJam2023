@@ -1,0 +1,445 @@
+fileFormatVersion: 2
+guid: c676860ad366bdc469301c3c6da1f93c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OrangeSideAttack_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 261
+        width: 80
+        height: 217
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014d4922f3fac6e4aaa3292e5e38f03f
+      internalID: -1857394928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeSideAttack_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 263
+        width: 80
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1adfe63cc519d458b0362beeb43b54
+      internalID: 1763194327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeSideAttack_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 259
+        width: 90
+        height: 220
+      alignment: 9
+      pivot: {x: 0.56, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c335f4c8caee54ca4f595e7bfb214b
+      internalID: -1387542870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeSideAttack_3
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 261
+        width: 81
+        height: 217
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471653d6980ae5d439d6911f90f0ccd5
+      internalID: 1668967899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeSideAttack_4
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 259
+        width: 158
+        height: 218
+      alignment: 9
+      pivot: {x: 0.26, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6213bf747d1ab41a78578115ff8373
+      internalID: 1147998209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeSideAttack_7
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 263
+        width: 148
+        height: 213
+      alignment: 9
+      pivot: {x: 0.29, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bbb3770cf822744b63c84ea1e94f66
+      internalID: -29733309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeSideAttack_9
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 259
+        width: 133
+        height: 218
+      alignment: 9
+      pivot: {x: 0.32, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4417715b165d1aa4ba868b37fc5b80b8
+      internalID: -345122499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeSideAttack_10
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 261
+        width: 108
+        height: 215
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47f822a05e7a8a46a3c006e05b099de
+      internalID: -581896948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeSideAttack_11
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 259
+        width: 98
+        height: 216
+      alignment: 9
+      pivot: {x: 0.59, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e19c9a60d696141a657bb27ada2d49
+      internalID: -1161997852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeSideAttack_12
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 263
+        width: 89
+        height: 212
+      alignment: 9
+      pivot: {x: 0.56, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519e40cf6f5a4f049b977b05502dc543
+      internalID: -357256417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeSideAttack_13
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 261
+        width: 80
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de448413cd6bee24c8a489c146a64ec4
+      internalID: 2025028701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeSideAttack_14
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 261
+        width: 80
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10ee48f5b32ced47834008fe19c974c
+      internalID: -133190908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeSideAttack_22
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 42
+        width: 80
+        height: 202
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d4e6fd8f587724fb5ac978be59b294
+      internalID: -739030844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeSideAttack_23
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 41
+        width: 80
+        height: 202
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a3ed22a3961be4eae43cf1de1e7295
+      internalID: -80479598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6ad0610e75d038b49a9088e12ed53b4a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      OrangeSideAttack_0: -1857394928
+      OrangeSideAttack_1: 1763194327
+      OrangeSideAttack_10: -581896948
+      OrangeSideAttack_11: -1161997852
+      OrangeSideAttack_12: -357256417
+      OrangeSideAttack_13: 2025028701
+      OrangeSideAttack_14: -133190908
+      OrangeSideAttack_15: 1769320781
+      OrangeSideAttack_16: 2099068256
+      OrangeSideAttack_17: 1958870559
+      OrangeSideAttack_18: -1428641671
+      OrangeSideAttack_19: 974729478
+      OrangeSideAttack_2: -1387542870
+      OrangeSideAttack_20: -1465082727
+      OrangeSideAttack_21: 554274882
+      OrangeSideAttack_22: -739030844
+      OrangeSideAttack_23: -80479598
+      OrangeSideAttack_3: 1668967899
+      OrangeSideAttack_4: 1147998209
+      OrangeSideAttack_5: 1778598528
+      OrangeSideAttack_6: 1850962636
+      OrangeSideAttack_7: -29733309
+      OrangeSideAttack_8: 1710223614
+      OrangeSideAttack_9: -345122499
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

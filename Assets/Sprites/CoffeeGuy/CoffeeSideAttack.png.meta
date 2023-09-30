@@ -1,0 +1,334 @@
+fileFormatVersion: 2
+guid: c5af12df4d9ca0c42b5bd4910f79f895
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CoffeeSideAttack_0
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 38
+        width: 141
+        height: 226
+      alignment: 9
+      pivot: {x: 0.59, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52010a230b818764b85b412a66a846b3
+      internalID: 59729656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeSideAttack_2
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 40
+        width: 124
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedef1a1061334b488b162d063824a0b
+      internalID: 1044929500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeSideAttack_5
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 39
+        width: 196
+        height: 226
+      alignment: 9
+      pivot: {x: 0.35, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08f643cf8690214181a627a2ecd6047
+      internalID: 611355227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeSideAttack_6
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 39
+        width: 188
+        height: 225
+      alignment: 9
+      pivot: {x: 0.41, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3854f38598a302b46846e3f0777808ed
+      internalID: 868587623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeSideAttack_8
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 39
+        width: 140
+        height: 224
+      alignment: 9
+      pivot: {x: 0.59, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70594216812e9764d939e7df7fc01bb4
+      internalID: 348344133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeSideAttack_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 40
+        width: 169
+        height: 226
+      alignment: 9
+      pivot: {x: 0.38, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a864c0ced00fc4b8fd012c94163a35
+      internalID: 1431309659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeSideAttack_11
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 38
+        width: 174
+        height: 228
+      alignment: 9
+      pivot: {x: 0.38, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fafeb22f06f64544baa7a811152fcd4
+      internalID: -768171250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeSideAttack_13
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 40
+        width: 124
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aca43fcc420fe446ae4f669f9b8f791
+      internalID: 1426552214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeSideAttack_14
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 40
+        width: 124
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f63a9c836ff7694b92d307fc2ace71b
+      internalID: 1504717782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 117fd88b0e575f8499996c45e084124e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CoffeeSideAttack_0: 59729656
+      CoffeeSideAttack_1: -1398749104
+      CoffeeSideAttack_10: -1784421103
+      CoffeeSideAttack_11: -768171250
+      CoffeeSideAttack_12: -312102006
+      CoffeeSideAttack_13: 1426552214
+      CoffeeSideAttack_14: 1504717782
+      CoffeeSideAttack_15: 2077637291
+      CoffeeSideAttack_16: -1943361903
+      CoffeeSideAttack_17: -210087358
+      CoffeeSideAttack_2: 1044929500
+      CoffeeSideAttack_3: 1775986545
+      CoffeeSideAttack_4: -446843148
+      CoffeeSideAttack_5: 611355227
+      CoffeeSideAttack_6: 868587623
+      CoffeeSideAttack_7: -1125327508
+      CoffeeSideAttack_8: 348344133
+      CoffeeSideAttack_9: 1431309659
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

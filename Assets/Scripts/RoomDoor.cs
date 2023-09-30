@@ -8,6 +8,8 @@ public class RoomDoor : MonoBehaviour
     [SerializeField] List<PressurePlate> daughterPlates;
     [SerializeField] Animator myAnimator;
     private int lockCount;
+    public bool fullyOpen;
+
     private void OnEnable()
     {
         if (daughterPlates.Count == 0)
@@ -58,7 +60,7 @@ public class RoomDoor : MonoBehaviour
         lockCount += 1;
 
         //close door if not all 'locks' open
-        if (lockCount > 0)
+        if (lockCount > 0 && !fullyOpen)
         {
             if (myAnimator)
                 myAnimator.SetBool("Open", false);
@@ -70,6 +72,9 @@ public class RoomDoor : MonoBehaviour
                 
             //auditory and visual feedback
         }
+
+        if (lockCount == daughterPlates.Count && !fullyOpen)
+            fullyOpen = true;
     }
 
     private void OnDisable()

@@ -27,7 +27,7 @@ public class PressurePlate : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<PlayerAttributes>() && !other.isTrigger)
+        if (other.GetComponent<NewPlayerMovement>() && !other.isTrigger)
         {
             currentPlayer = other.gameObject;
 
@@ -37,7 +37,7 @@ public class PressurePlate : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.GetComponent<PlayerAttributes>() && !other.isTrigger)
+        if (other.GetComponent<NewPlayerMovement>() && !other.isTrigger)
         {
             currentPlayer = null;
 

@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 1849a50f00b1b744ab35129d2bffc235
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OrangeFrontAttack_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 39
+        width: 95
+        height: 222
+      alignment: 9
+      pivot: {x: 0.44, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ef14de9527a0d42b2ac23d87d48d85
+      internalID: 1585001436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeFrontAttack_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 35
+        width: 94
+        height: 228
+      alignment: 9
+      pivot: {x: 0.44, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75bfcd2dfacb2c41bf02f51de34dda8
+      internalID: -1933147727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeFrontAttack_2
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 35
+        width: 94
+        height: 228
+      alignment: 9
+      pivot: {x: 0.44, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c136428c98d446045b131f548d4172ba
+      internalID: 976237660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeFrontAttack_3
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 37
+        width: 94
+        height: 226
+      alignment: 9
+      pivot: {x: 0.44, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935b43de4c89e6344a874304f448899a
+      internalID: -2016319558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeFrontAttack_4
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 41
+        width: 105
+        height: 221
+      alignment: 9
+      pivot: {x: 0.38, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81dd54d4ea9a9b4cb8bf426e48663c9
+      internalID: -1179619760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeFrontAttack_6
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 39
+        width: 91
+        height: 223
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1937c3f4fd54e24eba293ecbb327697
+      internalID: 377408757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeFrontAttack_7
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 38
+        width: 99
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eacabe9687cddc48923990db09a94a6
+      internalID: -808247395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeFrontAttack_8
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 41
+        width: 87
+        height: 220
+      alignment: 9
+      pivot: {x: 0.44, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a158398006d137342b3def0cb9d4fa9a
+      internalID: 626367811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeFrontAttack_9
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 39
+        width: 86
+        height: 222
+      alignment: 9
+      pivot: {x: 0.44, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991374834d4707b449d390a58d7c9e05
+      internalID: -494872595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeFrontAttack_10
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 39
+        width: 86
+        height: 222
+      alignment: 9
+      pivot: {x: 0.44, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1393784dbe534f640afa44e621f6b611
+      internalID: -840045132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeFrontAttack_11
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 35
+        width: 86
+        height: 224
+      alignment: 9
+      pivot: {x: 0.44, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff00f9166ea0c94dbef157748eb4e9d
+      internalID: 1256961947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeFrontAttack_12
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 39
+        width: 95
+        height: 222
+      alignment: 9
+      pivot: {x: 0.44, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3eeda42e4470e545b319d4a8fb3522b
+      internalID: -1697536165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeFrontAttack_13
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 113
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8620c898c2c804e8fef5eada1c8a9b
+      internalID: -1308116406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9eac279fd979ea842b24152b744fe2ad
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      OrangeFrontAttack_0: 1585001436
+      OrangeFrontAttack_1: -1933147727
+      OrangeFrontAttack_10: -840045132
+      OrangeFrontAttack_11: 1256961947
+      OrangeFrontAttack_12: -1697536165
+      OrangeFrontAttack_13: -1308116406
+      OrangeFrontAttack_2: 976237660
+      OrangeFrontAttack_3: -2016319558
+      OrangeFrontAttack_4: -1179619760
+      OrangeFrontAttack_5: -845504261
+      OrangeFrontAttack_6: 377408757
+      OrangeFrontAttack_7: -808247395
+      OrangeFrontAttack_8: 626367811
+      OrangeFrontAttack_9: -494872595
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
