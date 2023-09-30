@@ -5,11 +5,16 @@ using UnityEngine.AI;
 
 public class EnemyAi : MonoBehaviour
 {
-    public NavMeshAgent agent;
 
-    public Transform player;
+    //[SerializeField] protected Targetable _target;
+
+    public NavMeshAgent agent;
+    //public Transform player;
+    public Collider[] playerToChase;
 
     public LayerMask whatIsGround, whatIsPlayer;
+
+    private bool _hasTarget;
 
     //Patroling
     public Vector3 walkPoint;
@@ -24,17 +29,38 @@ public class EnemyAi : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
+    //Sprites and Animation
+    public float flipDistance = 1.0f;
+    private SpriteRenderer spriteRenderer;
+    private Animator myAnimator;
+
     private void Awake()
     {
-        player = GameObject.Find("PlayerObj").transform;
-        agent = GetComponent<NavMeshAgent>();
+        //player = GameObject.Find("PlayerObj").transform;
+        if (!agent) agent = GetComponent<NavMeshAgent>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        if (spriteRenderer == null)
+        {
+            Debug.LogError("SpriteRenderer component not found on the enemy object.");
+        }
+
+        myAnimator = GetComponentInChildren<Animator>();
+        if (myAnimator == null)
+        {
+            Debug.LogError("Animator component not found on the enemy object.");
+        }
+
+        agent.updateRotation = false;
     }
 
     private void Update()
     {
         //Check for sight and attack range
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
-        playerInSightRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
+        playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
+
+        Debug.Log(playerInSightRange);
+        Debug.Log(playerInAttackRange);
 
         if (!playerInSightRange && !playerInAttackRange) Patroling();
         if (playerInSightRange && !playerInAttackRange) ChasePlayer();
@@ -71,7 +97,9 @@ public class EnemyAi : MonoBehaviour
     }
     private void ChasePlayer()
     {
-        agent.SetDestination(player.position);
+        playerToChase = Physics.OverlapSphere(transform.position, sightRange, whatIsPlayer);
+        FlipSpriteBasedOnPlayerPosition();
+        agent.SetDestination(playerToChase[0].transform.position);
     }
 
     private void AttackPlayer()
@@ -79,13 +107,17 @@ public class EnemyAi : MonoBehaviour
         //Make sure enemy doesn't move
         agent.SetDestination(transform.position);
 
-        transform.LookAt(player);
+        if (playerToChase.Length > 0)
+            FlipSpriteBasedOnPlayerPosition();
+        else playerToChase = Physics.OverlapSphere(transform.position, sightRange, whatIsPlayer);
 
-        if(!alreadyAttacked)
+
+        if (!alreadyAttacked)
         {
             ///Attack code here
             ///
             ///
+            myAnimator.SetTrigger("Attack");
 
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
@@ -97,4 +129,43 @@ public class EnemyAi : MonoBehaviour
         alreadyAttacked = false;
     }
 
+    public void FlipSpriteBasedOnPlayerPosition()
+    {
+        if (playerToChase.Length > 0)
+        {
+            float playerDistance = playerToChase[0].transform.position.x - transform.position.x;
+
+            // Check if the player is to the right or left based on the threshold
+            if (Mathf.Abs(playerDistance) > flipDistance)
+            {
+                // Flip the sprite
+                if (playerDistance > 0)
+                {
+                    spriteRenderer.flipX = true;  // Face right
+                }
+                else
+                {
+                    spriteRenderer.flipX = false;   // Face left
+                }
+            }
+        }
+    }
+            
 }
+
+    //protected bool CheckTarget()
+    //{
+    //    var targets = Targetable.GetAllWithinRange(transform.position, sightRange);
+    //    var target = GetPotentialTarget(targets);
+    //    _target = target;
+    //    _hasTarget = _target;
+    //    return _hasTarget;
+    //}
+    //
+    //protected abstract Targetable GetPotentialTarget(IEnumerable<Targetable> potentialTargets);
+    //
+    //protected bool CheckAttackTarget()
+    //{
+    //    return (Vector3.Distance(transform.position, _target.transform.position) < attackRange);
+    //}
+
