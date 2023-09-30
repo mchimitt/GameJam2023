@@ -1,0 +1,394 @@
+fileFormatVersion: 2
+guid: 9bd27b7b2bef948488702fbc9d547240
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CoffeeIdle_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 35
+        width: 125
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f1e7c52ebdc2442b1758d890f8836b
+      internalID: 746221172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeIdle_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 36
+        width: 125
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b451a817942a3448fc3d960e35167d
+      internalID: 182079673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeIdle_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 35
+        width: 125
+        height: 207
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac8932d89d738c4aa3f10212f53956a
+      internalID: 1577071032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeIdle_3
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 38
+        width: 125
+        height: 202
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275a2d0e4823df741831427b86468b31
+      internalID: -1340567325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeIdle_4
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 39
+        width: 125
+        height: 202
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2aa550b0e59f30468594a10ab8aa03c
+      internalID: 1091683352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeIdle_5
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 38
+        width: 135
+        height: 203
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3970d2fccfc8ad1468d38bbb8f066f58
+      internalID: -1762188659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeIdle_6
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 38
+        width: 126
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6085779e345ea3247a99db6f7892cda3
+      internalID: -2023722831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeIdle_9
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 39
+        width: 125
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92b663346841c040938aa32253cbba8
+      internalID: 1244487498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeIdle_10
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 39
+        width: 125
+        height: 205
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0656ff2afaa27c4d97f317da079854c
+      internalID: 1726390034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeIdle_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 38
+        width: 125
+        height: 205
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61dd55a08722c343994ef152e6d246d
+      internalID: -274104501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeIdle_12
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 37
+        width: 126
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763efab821f31fa44afc0da21b418489
+      internalID: 773706444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeIdle_14
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 39
+        width: 125
+        height: 205
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eea95b9a612d894daf2ebc60b4a4ffe
+      internalID: -1421477633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0ea5426d04f361f4498723fbae29e006
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CoffeeIdle_0: 746221172
+      CoffeeIdle_1: 182079673
+      CoffeeIdle_10: 1726390034
+      CoffeeIdle_11: -274104501
+      CoffeeIdle_12: 773706444
+      CoffeeIdle_13: 1110786632
+      CoffeeIdle_14: -1421477633
+      CoffeeIdle_2: 1577071032
+      CoffeeIdle_3: -1340567325
+      CoffeeIdle_4: 1091683352
+      CoffeeIdle_5: -1762188659
+      CoffeeIdle_6: -2023722831
+      CoffeeIdle_7: -251093207
+      CoffeeIdle_8: 307252799
+      CoffeeIdle_9: 1244487498
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

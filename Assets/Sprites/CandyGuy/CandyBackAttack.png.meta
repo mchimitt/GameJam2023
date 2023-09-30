@@ -1,0 +1,373 @@
+fileFormatVersion: 2
+guid: 1b626c08f9b8cf445bc4104d4ab816c5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CandyBackAttack_0
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 61
+        width: 163
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f760549afe35f2648ac6eecae54f6bbf
+      internalID: -713930838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyBackAttack_2
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 62
+        width: 161
+        height: 278
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15e2cbc7c76a014ca8891dac73af9e3
+      internalID: -1920699035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyBackAttack_4
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 61
+        width: 154
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251ae6665b72d114caef3c58771b6ec0
+      internalID: 1786450372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyBackAttack_5
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 62
+        width: 138
+        height: 278
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0ec0bfb30c4924c9eba32ec72cbdde
+      internalID: -163828307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyBackAttack_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 61
+        width: 141
+        height: 280
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fab73f5f4c38a46a3c68d2426d7bc3
+      internalID: -874942682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyBackAttack_7
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 60
+        width: 174
+        height: 278
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782430150ba6941468432901f0fabd8a
+      internalID: 374816090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyBackAttack_8
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 61
+        width: 186
+        height: 276
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f884f6473266a1439e08af3c124e16f
+      internalID: -1904872226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyBackAttack_10
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 60
+        width: 182
+        height: 278
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2da1d2f4fedcdc4ba88f496106294bd
+      internalID: -413883428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyBackAttack_12
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 60
+        width: 168
+        height: 277
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc00ebea78765f140b4bd3d1853b19e8
+      internalID: 1193021292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyBackAttack_13
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 60
+        width: 142
+        height: 277
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec6f5827fe6aa841814d4752fe64685
+      internalID: -387331132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyBackAttack_14
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 59
+        width: 142
+        height: 275
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7aed1bc660ea742955de7916cd42c7
+      internalID: 2017785745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 325f75aeabed00948bd7ee8572c021d5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CandyBackAttack_0: -713930838
+      CandyBackAttack_1: -1533164459
+      CandyBackAttack_10: -413883428
+      CandyBackAttack_11: 1964782337
+      CandyBackAttack_12: 1193021292
+      CandyBackAttack_13: -387331132
+      CandyBackAttack_14: 2017785745
+      CandyBackAttack_2: -1920699035
+      CandyBackAttack_3: -376217746
+      CandyBackAttack_4: 1786450372
+      CandyBackAttack_5: -163828307
+      CandyBackAttack_6: -874942682
+      CandyBackAttack_7: 374816090
+      CandyBackAttack_8: -1904872226
+      CandyBackAttack_9: 2009352348
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

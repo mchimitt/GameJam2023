@@ -1,0 +1,392 @@
+fileFormatVersion: 2
+guid: 1d8d9a3014fc28e4c88ec992d72420e7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OrangeBackAttack_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 40
+        width: 86
+        height: 207
+      alignment: 9
+      pivot: {x: 0.53, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b70e465d58f9a46bfc38b45a6d3bb5
+      internalID: -1520886272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeBackAttack_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 40
+        width: 86
+        height: 207
+      alignment: 9
+      pivot: {x: 0.53, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab15fc95a03ec940b799c4ca2cd62a3
+      internalID: 102082455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeBackAttack_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 42
+        width: 96
+        height: 205
+      alignment: 9
+      pivot: {x: 0.59, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d445f2b62f236478e4d584f171d2b0
+      internalID: 365250017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeBackAttack_3
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 40
+        width: 99
+        height: 207
+      alignment: 9
+      pivot: {x: 0.59, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012fdb7e594c9fd4ea3be51bc2d1f220
+      internalID: 1805806671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeBackAttack_4
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 39
+        width: 87
+        height: 207
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767411e27a421874caf59a6fd9d5862a
+      internalID: 1968824925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeBackAttack_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 39
+        width: 98
+        height: 207
+      alignment: 9
+      pivot: {x: 0.41, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6382e43705c10ed4a90ebd77e4841239
+      internalID: -1974395566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeBackAttack_6
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 42
+        width: 84
+        height: 205
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe09cb5f2c8e4b4aa72bb1138808547
+      internalID: -651277595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeBackAttack_7
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 42
+        width: 88
+        height: 204
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6c17a926c70e5408fb39f0b70f4b09
+      internalID: -7175437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeBackAttack_9
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 41
+        width: 81
+        height: 205
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb8a00e7bfd61f48ae186eb047ca40e
+      internalID: 1858955121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeBackAttack_10
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 41
+        width: 101
+        height: 204
+      alignment: 9
+      pivot: {x: 0.59, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbdc4af67030714d93c04ee6f9b5ff5
+      internalID: -1999455426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeBackAttack_11
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 41
+        width: 86
+        height: 204
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76309e69217bd2044a151536d5437cfc
+      internalID: 1966360608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeBackAttack_12
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 42
+        width: 86
+        height: 203
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3486782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715694a3a1f59214d8e4ab5e5c7a7d5b
+      internalID: 548241653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 068d4821e140a804cb68964083d75392
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      OrangeBackAttack_0: -1520886272
+      OrangeBackAttack_1: 102082455
+      OrangeBackAttack_10: -1999455426
+      OrangeBackAttack_11: 1966360608
+      OrangeBackAttack_12: 548241653
+      OrangeBackAttack_2: 365250017
+      OrangeBackAttack_3: 1805806671
+      OrangeBackAttack_4: 1968824925
+      OrangeBackAttack_5: -1974395566
+      OrangeBackAttack_6: -651277595
+      OrangeBackAttack_7: -7175437
+      OrangeBackAttack_8: 560940025
+      OrangeBackAttack_9: 1858955121
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
