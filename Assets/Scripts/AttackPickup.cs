@@ -18,16 +18,18 @@ public class AttackPickup : MonoBehaviour
         karmaValue = 5;
 
         attackBoost = 1;
+
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
 
         if (other.tag == "Player1")
-        { 
+        {
+            player1Pickup = other.GetComponent<PlayerAttributes>();
             player1Pickup.PlayerPickUp(karmaValue);
 
-            Debug.Log("calls attack boost");
             player1Pickup.AttackBoost(attackBoost);
 
             gameObject.SetActive(false);
@@ -35,6 +37,8 @@ public class AttackPickup : MonoBehaviour
 
         if (other.tag == "Player2")
         {
+            player2Pickup = other.GetComponent<PlayerAttributes>();
+
             player2Pickup.PlayerPickUp(karmaValue);
 
             player2Pickup.AttackBoost(attackBoost);
@@ -44,6 +48,8 @@ public class AttackPickup : MonoBehaviour
 
         if (other.tag == "Player3")
         {
+            player3Pickup = other.GetComponent<PlayerAttributes>();
+
             player3Pickup.PlayerPickUp(karmaValue);
 
             player3Pickup.AttackBoost(attackBoost);
@@ -53,6 +59,8 @@ public class AttackPickup : MonoBehaviour
 
         if (other.tag == "Player4")
         {
+            player4Pickup = other.GetComponent<PlayerAttributes>();
+
             player4Pickup.PlayerPickUp(karmaValue);
 
             player4Pickup.AttackBoost(attackBoost);
