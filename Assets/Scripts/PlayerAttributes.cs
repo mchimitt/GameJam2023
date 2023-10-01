@@ -56,4 +56,9 @@ public class PlayerAttributes : MonoBehaviour
     {
         speed += speedBoostValue;
     }
+
+    public void HealthBoost(float healthBoostValue)
+    {
+        currentHealth += healthBoostValue;
+    }
 }
