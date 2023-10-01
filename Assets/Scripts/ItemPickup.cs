@@ -11,13 +11,13 @@ public class ItemPickup : MonoBehaviour
     [SerializeField] PlayerAttributes player3Pickup;
     [SerializeField] PlayerAttributes player4Pickup;
 
+
     private void OnTriggerEnter(Collider other)
     {
 
         if (other.tag == "Player1")
         { 
             player1Pickup.PlayerPickUp(karmaValue);
-
 
             gameObject.SetActive(false);
         }
@@ -26,6 +26,19 @@ public class ItemPickup : MonoBehaviour
         {
             player2Pickup.PlayerPickUp(karmaValue);
 
+            gameObject.SetActive(false);
+        }
+
+        if (other.tag == "Player3")
+        {
+            player3Pickup.PlayerPickUp(karmaValue);
+
+            gameObject.SetActive(false);
+        }
+
+        if (other.tag == "Player4")
+        {
+            player4Pickup.PlayerPickUp(karmaValue);
 
             gameObject.SetActive(false);
         }

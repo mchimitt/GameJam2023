@@ -32,13 +32,12 @@ public class PlayerAttributes : MonoBehaviour
     public void PlayerPickUp(float karmaValue)
     {
 
-        karmaMeter.UpdateKarmaMeter(maxKarma, currentKarma + karmaValue);
+        karmaMeter.UpdateKarmaMeter(maxKarma, currentKarma += karmaValue);
     }
 
     public void PlayerTakeDamage(float damageValue)
     {
-        //need to set current health to current - damage val and then subtract again or smth bc ut only works once rn
-        //same for karma prob
-        healthbar.UpdateHealthBar(maxHealth, currentHealth - damageValue);
+
+        healthbar.UpdateHealthBar(maxHealth, (currentHealth -= damageValue));
     }
 }
