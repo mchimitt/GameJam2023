@@ -6,6 +6,8 @@ public class RoomSwitch : MonoBehaviour
 {
     [SerializeField] GameObject virtualCam;
     [SerializeField] List<GameObject> players;
+    public bool hideFourthWall = false;
+    public GameObject fourthWall;
     public int numPlayersNeeded = 4;
 
     private void Awake()
@@ -22,6 +24,11 @@ public class RoomSwitch : MonoBehaviour
             {
                 Cinemachine.CinemachineConfiner confiner = virtualCam.GetComponent<Cinemachine.CinemachineConfiner>();
                 confiner.m_BoundingVolume = this.GetComponent<Collider>();
+
+                if (hideFourthWall && fourthWall)
+                    fourthWall.SetActive(false);
+
+                players.Clear();
             }
         }
     }
@@ -30,7 +37,8 @@ public class RoomSwitch : MonoBehaviour
     {
         if (other.GetComponent<PlayerAttributes>() && !other.isTrigger)
         {
-            players.Remove(other.gameObject);
+            if (players.Count > 0)
+                players.Remove(other.gameObject);
         }
     }
 }
