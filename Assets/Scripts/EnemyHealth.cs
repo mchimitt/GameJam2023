@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] private Image _healthBar;
-    [SerializeField] private List<GameObject>() Loot;
+    [SerializeField] private List<GameObject> Loot;
     [SerializeField] private Animator poof;
  
     public void UpdateHealthBar(float maxHealth, float currentHealth)
@@ -16,12 +16,12 @@ public class EnemyHealth : MonoBehaviour
         if (currentHealth <= 0)
         {
             Debug.Log(currentHealth);
-            foreach(Gameobjet gameobject in Loot)
+            foreach(GameObject gameobject in Loot)
             {
-                Instantiate(this, gameobject);
+                Instantiate(gameobject, this.transform);
             }
         }
 
-        poof.GameObject.SetActive(true);
+        poof.gameObject.SetActive(true);
     }
 }
