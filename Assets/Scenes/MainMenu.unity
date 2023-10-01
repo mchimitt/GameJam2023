@@ -3722,7 +3722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9bf718d30729f044865c69663cc2267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mainMenuMusic: {fileID: 0}
+  _mainMenuMusic: {fileID: 11400000, guid: f14a91e494ae21b4991277bd2538787b, type: 2}
   _mainMenuCanvas: {fileID: 1958822920}
   _optionsCanvas: {fileID: 838604672}
   _mainMenuFirstSelected: {fileID: 411871812}
