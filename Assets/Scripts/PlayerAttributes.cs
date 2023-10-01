@@ -8,42 +8,37 @@ public class PlayerAttributes : MonoBehaviour
 
     [SerializeField] float attackDamage;
     [SerializeField] float speed;
-    [SerializeField] float karma = 50;
+
+    [SerializeField] float maxKarma = 100;
+    [SerializeField] float currentKarma;
+
     [SerializeField] float maxHealth = 100;
     [SerializeField] float currentHealth;
 
-    [SerializeField] private Healthbar healthbar;
-    // Start is called before the first frame update
+    [SerializeField] Healthbar healthbar;
+    [SerializeField] KarmaMeter karmaMeter;
+
     void Start()
     {
-        karma = 50;
+        //currentKarma = 50;
+        karmaMeter.UpdateKarmaMeter(maxKarma, currentKarma);
+
         currentHealth = maxHealth;
         healthbar.UpdateHealthBar(maxHealth, currentHealth);
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        //if (Input.GetMouseButtonDown(0))
-        //{
-        //   OnMouseClick();
-        //}
     }
 
 
-    void OnMouseDown()
+
+    public void PlayerPickUp(float karmaValue)
     {
-        currentHealth -= 5f;
 
-        if (currentHealth <= 0)
-        {
+        karmaMeter.UpdateKarmaMeter(maxKarma, currentKarma += karmaValue);
+    }
 
-            Destroy(gameObject);
-        }
-        else
-        {
-            healthbar.UpdateHealthBar(maxHealth, currentHealth);
+    public void PlayerTakeDamage(float damageValue)
+    {
 
-        }
+        healthbar.UpdateHealthBar(maxHealth, (currentHealth -= damageValue));
     }
 }
