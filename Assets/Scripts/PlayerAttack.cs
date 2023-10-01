@@ -55,9 +55,8 @@ public class PlayerAttack : MonoBehaviour
                 Debug.DrawRay(transform.position, transform.TransformDirection(playerDirection,0,0) * hit.distance, Color.yellow);
                 // Debug.Log("Did Hit");
 
-
                 Destroy(hit.transform.gameObject);
-
+                
 
             }
             StartCoroutine(DelayAttack());
