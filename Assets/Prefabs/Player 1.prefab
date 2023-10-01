@@ -257,6 +257,7 @@ GameObject:
   - component: {fileID: 7940076849690126086}
   - component: {fileID: 3757664572021898506}
   - component: {fileID: 1745589733187038603}
+  - component: {fileID: 757002131288569404}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Untagged
@@ -409,6 +410,25 @@ MonoBehaviour:
   m_DefaultActionMap: Movement
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &757002131288569404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5375052774092558421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82b8931c8e4c6254b99223c7d2703647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterRenderer: {fileID: 6390873021369036851}
+  weaponRenderer: {fileID: 6390873021369036851}
+  attackPoints: []
+  playerInput: {fileID: 1745589733187038603}
+  myAnimator: {fileID: 7868395560610149158}
+  delay: 0.3
+  isAttacking: 0
 --- !u!1 &6375625122041464459
 GameObject:
   m_ObjectHideFlags: 0
