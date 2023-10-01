@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9136173800805125063}
   - component: {fileID: 5430047823186326151}
   - component: {fileID: 602878056218686617}
+  - component: {fileID: 4233682810151926339}
   m_Layer: 5
   m_Name: Foreground
   m_TagString: Untagged
@@ -91,6 +92,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4233682810151926339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477346610127422736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4488f890ea55244cb5701b0ec2b59f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthBar: {fileID: 602878056218686617}
 --- !u!1 &714522877618094859
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,9 +781,10 @@ GameObject:
   - component: {fileID: 3959100943845322700}
   - component: {fileID: 5520634878441469900}
   - component: {fileID: 5675208331089156710}
+  - component: {fileID: 2084594409950089102}
   m_Layer: 0
   m_Name: Player 2
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -805,7 +820,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -921,5 +936,24 @@ MonoBehaviour:
     m_Bits: 256
   myAnimator: {fileID: 3424540894482051491}
   delay: 0.3
-  bc: {fileID: 0}
   isAttacking: 0
+--- !u!114 &2084594409950089102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152557317305943059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7db9ae182a78794f82543208e068008, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 10
+  speed: 5
+  maxKarma: 100
+  currentKarma: 0
+  maxHealth: 100
+  currentHealth: 100
+  healthbar: {fileID: 4233682810151926339}
+  karmaMeter: {fileID: 9136173800805125063}

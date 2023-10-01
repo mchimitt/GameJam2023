@@ -37,7 +37,7 @@ public class NewPlayerMovement : MonoBehaviour
     {
         Vector2 direction = moveAction.ReadValue<Vector2>();
         transform.position += new Vector3(direction.x, 0, direction.y) * speed *  Time.deltaTime;
-        Debug.Log(direction);
+        //Debug.Log(direction);
 
 
         if ((direction.x != 0 || direction.y != 0)) //if have extra time, add up and down walking anim

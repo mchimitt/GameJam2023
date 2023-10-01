@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\UI\PanelSwitcher.cs" />
     <Compile Include="Assets\Scripts\PlayerAttributes.cs" />
     <Compile Include="Assets\Scripts\PlayerJump.cs" />
+    <Compile Include="Assets\FinishLine.cs" />
     <Compile Include="Assets\HoverRotation.cs" />
     <Compile Include="Assets\Scripts\AttackPickup.cs" />
     <Compile Include="Assets\Scripts\Healthbar.cs" />
