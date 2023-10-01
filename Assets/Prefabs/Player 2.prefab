@@ -633,6 +633,7 @@ GameObject:
   - component: {fileID: 3959100943845322700}
   - component: {fileID: 6372368617515990149}
   - component: {fileID: 4122973799130233314}
+  - component: {fileID: 4210983259409428613}
   m_Layer: 0
   m_Name: Player 2
   m_TagString: Untagged
@@ -803,4 +804,26 @@ MonoBehaviour:
   playerInput: {fileID: 6372368617515990149}
   myAnimator: {fileID: 3424540894482051491}
   delay: 0.3
+  bc: {fileID: 4210983259409428613}
   isAttacking: 0
+--- !u!65 &4210983259409428613
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152557317305943059}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0326018, y: 1, z: 0.4390831}
+  m_Center: {x: 0.6543224, y: 0, z: 0.004553199}
