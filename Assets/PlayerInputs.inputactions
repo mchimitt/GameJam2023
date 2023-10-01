@@ -103,7 +103,7 @@
                 {
                     "name": "up",
                     "id": "f70c225a-ee2f-4c55-b298-2faa8978c0c5",
-                    "path": "<Joystick>/stick/up",
+                    "path": "<Gamepad>/leftStick/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

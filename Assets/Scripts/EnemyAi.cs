@@ -14,7 +14,12 @@ public class EnemyAi : MonoBehaviour
 
     public LayerMask whatIsGround, whatIsPlayer;
 
+    [SerializeField] float maxHealth = 100;
+    [SerializeField] float currentHealth = 100;
+
     private bool _hasTarget;
+
+    Healthbar healthbar;
 
     //Patroling
     public Vector3 walkPoint;
@@ -50,6 +55,8 @@ public class EnemyAi : MonoBehaviour
             Debug.LogError("Animator component not found on the enemy object.");
         }
 
+        healthbar = GetComponent<Healthbar>();
+
         agent.updateRotation = false;
     }
 
@@ -58,6 +65,9 @@ public class EnemyAi : MonoBehaviour
         //Check for sight and attack range
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
+
+      
+        transform.position = new Vector3(transform.position.x, 0f, transform.position.z);
 
         Debug.Log(playerInSightRange);
         Debug.Log(playerInAttackRange);
@@ -150,8 +160,22 @@ public class EnemyAi : MonoBehaviour
             }
         }
     }
-            
+
+    public void takeDamage(float damageValue)
+    {
+        healthbar.UpdateHealthBar(maxHealth, (currentHealth -= damageValue));
+
+        if (currentHealth <= 0)
+        {
+            Destroy(this);
+        }
+
+    }
+
 }
+
+
+
 
     //protected bool CheckTarget()
     //{

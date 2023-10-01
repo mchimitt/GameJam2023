@@ -18,14 +18,13 @@ public class PlayerAttack : MonoBehaviour
     public float delay = 0.3f;
     private bool attackBlocked;
 
-    [SerializeField] BoxCollider bc;
 
     public bool isAttacking = false;
 
     private void Start()
     {
         npm = GetComponent<NewPlayerMovement>();
-        bc.enabled = false;
+        
     }
 
     private void Update()
@@ -42,7 +41,7 @@ public class PlayerAttack : MonoBehaviour
             Debug.Log("ATTACKING WOOOO");
             myAnimator.SetTrigger("AttackSide");
             isAttacking = false;
-            bc.enabled = true;
+            
 
             float playerDirection = npm.playerDirection;
 
@@ -55,13 +54,14 @@ public class PlayerAttack : MonoBehaviour
                 Debug.DrawRay(transform.position, transform.TransformDirection(playerDirection,0,0) * hit.distance, Color.yellow);
                 // Debug.Log("Did Hit");
 
-                Destroy(hit.transform.gameObject);
+                hit.transform.gameObject.GetComponent<EnemyAi>().takeDamage(10);
                 
 
             }
             StartCoroutine(DelayAttack());
             
         } 
+
     }
 
     public void Attack()
@@ -89,7 +89,7 @@ public class PlayerAttack : MonoBehaviour
 
         if (other.gameObject.layer == enemy) { 
             Debug.Log("COLLIDED WITH " + other);
-            bc.enabled = false;
+           
         }
     }
 

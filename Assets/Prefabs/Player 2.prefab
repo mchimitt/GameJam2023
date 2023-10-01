@@ -766,6 +766,7 @@ GameObject:
   - component: {fileID: 7505100867142660342}
   - component: {fileID: 3959100943845322700}
   - component: {fileID: 5520634878441469900}
+  - component: {fileID: 5675208331089156710}
   m_Layer: 0
   m_Name: Player 2
   m_TagString: Untagged
@@ -867,6 +868,7 @@ MonoBehaviour:
   myAnimator: {fileID: 3424540894482051491}
   spriteRenderer: {fileID: 785220468444739117}
   playerJump: {fileID: 1686201059260301503}
+  playerDirection: 1
   speed: 10
 --- !u!114 &5520634878441469900
 MonoBehaviour:
@@ -898,3 +900,26 @@ MonoBehaviour:
   m_DefaultActionMap: Movement
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &5675208331089156710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152557317305943059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82b8931c8e4c6254b99223c7d2703647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterRenderer: {fileID: 785220468444739117}
+  weaponRenderer: {fileID: 785220468444739117}
+  attackPoints: []
+  playerInput: {fileID: 5520634878441469900}
+  enemy:
+    serializedVersion: 2
+    m_Bits: 256
+  myAnimator: {fileID: 3424540894482051491}
+  delay: 0.3
+  bc: {fileID: 0}
+  isAttacking: 0

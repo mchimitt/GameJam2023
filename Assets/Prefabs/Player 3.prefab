@@ -234,6 +234,7 @@ MonoBehaviour:
   myAnimator: {fileID: 7190068808394013937}
   spriteRenderer: {fileID: 7827677487176328001}
   playerJump: {fileID: 0}
+  playerDirection: 1
   speed: 10
 --- !u!114 &4794653452588247634
 MonoBehaviour:
@@ -301,6 +302,9 @@ MonoBehaviour:
   weaponRenderer: {fileID: 7827677487176328001}
   attackPoints: []
   playerInput: {fileID: 4794653452588247634}
+  enemy:
+    serializedVersion: 2
+    m_Bits: 256
   myAnimator: {fileID: 7190068808394013937}
   delay: 0.3
   bc: {fileID: 5674655663512038520}

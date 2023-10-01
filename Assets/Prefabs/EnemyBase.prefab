@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7288762313333728145}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AttackPointPosX
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
@@ -44,7 +44,9 @@ GameObject:
   - component: {fileID: 7637968704529077382}
   - component: {fileID: 2908446906247720137}
   - component: {fileID: 1813920537941958538}
-  m_Layer: 0
+  - component: {fileID: 7046026109906535251}
+  - component: {fileID: 3987441083297050124}
+  m_Layer: 8
   m_Name: EnemyBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,9 +118,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 1
-  m_Height: 1
+  m_Height: 4.422759
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 1.2113795, z: 0}
 --- !u!114 &2908446906247720137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,6 +141,8 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 128
+  maxHealth: 100
+  currentHealth: 0
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 3
   timeBetweenAttacks: 1
@@ -169,6 +173,50 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &7046026109906535251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2181722915239040247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4488f890ea55244cb5701b0ec2b59f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthBar: {fileID: 3039177644844907603}
+--- !u!114 &3987441083297050124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2181722915239040247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: e147514fbcc774d41823dac98d333a13, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &2847486232804486690
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,7 +229,7 @@ GameObject:
   - component: {fileID: 6590457360521963071}
   - component: {fileID: 5429099717799724964}
   - component: {fileID: 3039177644844907603}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,7 +319,7 @@ GameObject:
   - component: {fileID: 3674148545711303626}
   - component: {fileID: 8829257599819903267}
   - component: {fileID: 2926677673285023412}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: BG Karma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,7 +394,7 @@ GameObject:
   - component: {fileID: 8446154704605970736}
   - component: {fileID: 8043989053457276347}
   - component: {fileID: 2243341982038679664}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Karma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -419,7 +467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5817427276888167051}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AttackPointNegZ
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
@@ -452,7 +500,7 @@ GameObject:
   - component: {fileID: 900338060833316197}
   - component: {fileID: 448512263841222657}
   - component: {fileID: 7677509207774483763}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Player2
   m_Icon: {fileID: 0}
@@ -467,9 +515,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5413051668311880363}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.17, y: 1.19, z: -1.99}
-  m_LocalScale: {x: 1, y: 1, z: 0.001}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3635073763372755168}
@@ -535,7 +583,7 @@ GameObject:
   - component: {fileID: 2747165182420952080}
   - component: {fileID: 3102216095677401991}
   - component: {fileID: 1602842545813189438}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -620,7 +668,7 @@ GameObject:
   - component: {fileID: 4273488260028036282}
   - component: {fileID: 6653861026612333859}
   - component: {fileID: 6114425147889783619}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -693,7 +741,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4149681285921484439}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AttackPointNegX
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
@@ -724,7 +772,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7971571838712241780}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AttackPointPosZ
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
@@ -757,7 +805,7 @@ GameObject:
   - component: {fileID: 3313119624409764881}
   - component: {fileID: 2000976824852218848}
   - component: {fileID: 7538214464433532483}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SpriteArt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -773,7 +821,7 @@ Transform:
   m_GameObject: {fileID: 9009490799072043130}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.08, z: -1.99}
+  m_LocalPosition: {x: 0, y: 2.08, z: -0}
   m_LocalScale: {x: 0.62877, y: 0.62877, z: 0.00062877004}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -861,7 +909,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3761540320050293646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AttackPoints
   m_TagString: Untagged
   m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
