@@ -58,16 +58,26 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\UI\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\TargetableType.cs" />
     <Compile Include="Assets\Scripts\RoomDoor.cs" />
+    <Compile Include="Assets\Scripts\EnemyMeleeMovement.cs" />
+    <Compile Include="Assets\Scripts\UI\AnimatedButtonHoverSelect.cs" />
+    <Compile Include="Assets\Scripts\Utility\GameSceneManager.cs" />
     <Compile Include="Assets\Scripts\PlayerAttack.cs" />
+    <Compile Include="Assets\Scripts\UI\PanelSwitcher.cs" />
     <Compile Include="Assets\Scripts\PlayerAttributes.cs" />
     <Compile Include="Assets\Scripts\PlayerJump.cs" />
     <Compile Include="Assets\Scripts\Healthbar.cs" />
     <Compile Include="Assets\Scripts\Targetable.cs" />
     <Compile Include="Assets\Scripts\RoomSwitch.cs" />
     <Compile Include="Assets\Scripts\EnemyAi.cs" />
+    <Compile Include="Assets\Scripts\UI\MouseControllerManager.cs" />
+    <Compile Include="Assets\Scripts\ItemPickup.cs" />
+    <Compile Include="Assets\Scripts\DamageVolume.cs" />
+    <Compile Include="Assets\Scripts\KarmaMeter.cs" />
     <Compile Include="Assets\Scripts\PressurePlate.cs" />
+    <Compile Include="Assets\Scripts\PlayerAiMovement.cs" />
     <Compile Include="Assets\Scripts\NewPlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -835,6 +845,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{9CF3459C-4A24-08E6-128A-92477854940E}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="CoffeyUtils.Editor.csproj">
+      <Project>{431E7725-30A4-5C75-F5F1-6F3CD485F271}</Project>
+      <Name>CoffeyUtils.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="CoffeyUtils.csproj">
+      <Project>{B524DE6F-49DB-2DF7-5264-A93DFA67D4AE}</Project>
+      <Name>CoffeyUtils</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
