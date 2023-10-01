@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackPickup : MonoBehaviour
+public class HealthPickup : MonoBehaviour
 {
+
     [SerializeField] float karmaValue;
 
-    [SerializeField] float attackBoost;
+    [SerializeField] float healthBoost;
 
     [SerializeField] PlayerAttributes player1Pickup;
     [SerializeField] PlayerAttributes player2Pickup;
@@ -15,22 +16,20 @@ public class AttackPickup : MonoBehaviour
 
     private void Awake()
     {
-        karmaValue = 5;
+        karmaValue = 1;
 
-        attackBoost = 1;
-
-
+        healthBoost = 20;
     }
-
     private void OnTriggerEnter(Collider other)
     {
 
         if (other.tag == "Player1")
         {
             player1Pickup = other.GetComponent<PlayerAttributes>();
+
             player1Pickup.PlayerPickUp(karmaValue);
 
-            player1Pickup.AttackBoost(attackBoost);
+            player1Pickup.HealthBoost(healthBoost);
 
             gameObject.SetActive(false);
         }
@@ -41,7 +40,7 @@ public class AttackPickup : MonoBehaviour
 
             player2Pickup.PlayerPickUp(karmaValue);
 
-            player2Pickup.AttackBoost(attackBoost);
+            player2Pickup.HealthBoost(healthBoost);
 
             gameObject.SetActive(false);
         }
@@ -52,7 +51,7 @@ public class AttackPickup : MonoBehaviour
 
             player3Pickup.PlayerPickUp(karmaValue);
 
-            player3Pickup.AttackBoost(attackBoost);
+            player3Pickup.HealthBoost(healthBoost);
 
             gameObject.SetActive(false);
         }
@@ -63,9 +62,10 @@ public class AttackPickup : MonoBehaviour
 
             player4Pickup.PlayerPickUp(karmaValue);
 
-            player4Pickup.AttackBoost(attackBoost);
+            player4Pickup.HealthBoost(healthBoost);
 
             gameObject.SetActive(false);
         }
     }
+
 }
