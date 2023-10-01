@@ -13,6 +13,12 @@ public class AttackPickup : MonoBehaviour
     [SerializeField] PlayerAttributes player3Pickup;
     [SerializeField] PlayerAttributes player4Pickup;
 
+    private void Awake()
+    {
+        karmaValue = 5;
+
+        attackBoost = 1;
+    }
 
     private void OnTriggerEnter(Collider other)
     {

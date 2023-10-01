@@ -13,7 +13,12 @@ public class SpeedPickup : MonoBehaviour
     [SerializeField] PlayerAttributes player3Pickup;
     [SerializeField] PlayerAttributes player4Pickup;
 
+    private void Awake()
+    {
+        karmaValue = 3;
 
+        speedBoost = 5;
+    }
     private void OnTriggerEnter(Collider other)
     {
 
