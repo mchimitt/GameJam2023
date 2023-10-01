@@ -12,9 +12,10 @@ public class NewPlayerMovement : MonoBehaviour
     [SerializeField] public Animator myAnimator;
     [SerializeField] SpriteRenderer spriteRenderer;
     [SerializeField] PlayerJump playerJump;
-
+    public float playerDirection = 1;
 
     [SerializeField] float speed = 10000000;
+
 
 
     // Start is called before the first frame update
@@ -39,14 +40,22 @@ public class NewPlayerMovement : MonoBehaviour
         Debug.Log(direction);
 
 
-       if ((direction.x != 0 || direction.y != 0)) //if have extra time, add up and down walking anim
-       {
-           myAnimator.SetBool("isWalking", true);
-           if (direction.x > 0)
-               spriteRenderer.flipX = false;
-           if (direction.x < 0)
-               spriteRenderer.flipX = true;
-       }
+        if ((direction.x != 0 || direction.y != 0)) //if have extra time, add up and down walking anim
+        {
+            myAnimator.SetBool("isWalking", true);
+            if (direction.x > 0)
+            {
+                spriteRenderer.flipX = false;
+                // right
+                playerDirection = 1;
+            }
+            if (direction.x < 0)
+            {
+                spriteRenderer.flipX = true;
+                // left
+                playerDirection = -1;
+            }
+        }
         else
         {
             myAnimator.SetBool("isWalking", false);
