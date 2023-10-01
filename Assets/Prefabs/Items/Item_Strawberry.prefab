@@ -129,10 +129,10 @@ GameObject:
   - component: {fileID: 931002255979284355}
   - component: {fileID: -6209840767013925423}
   - component: {fileID: 9076212209439630827}
-  - component: {fileID: 1244371078875763379}
   - component: {fileID: 5494710483458011398}
+  - component: {fileID: -892933388562046780}
   m_Layer: 0
-  m_Name: Item_Sugar
+  m_Name: Item_Strawberry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -195,7 +195,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -53346601, guid: dea87a5c122cf8e468f5e97538b76160, type: 3}
+  m_Sprite: {fileID: 398341196, guid: dea87a5c122cf8e468f5e97538b76160, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -241,24 +241,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.485
---- !u!114 &1244371078875763379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7863909147949411003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b64f5d9e819e9d4caecb3c3f7fb352f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  karmaValue: 10
-  speedBoost: 3
-  player1Pickup: {fileID: 0}
-  player2Pickup: {fileID: 0}
-  player3Pickup: {fileID: 0}
-  player4Pickup: {fileID: 0}
 --- !u!114 &5494710483458011398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,3 +256,21 @@ MonoBehaviour:
   hoverHeight: 0.001
   hoverSpeed: 1
   rotationSpeed: 30
+--- !u!114 &-892933388562046780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7863909147949411003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cca465d3ccfc977458a029e69bf10d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  karmaValue: 10
+  attackBoost: 5
+  player1Pickup: {fileID: 0}
+  player2Pickup: {fileID: 0}
+  player3Pickup: {fileID: 0}
+  player4Pickup: {fileID: 0}
