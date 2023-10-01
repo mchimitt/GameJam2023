@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 974847953727113562}
   - component: {fileID: 4442041592519172272}
   - component: {fileID: 2951484435893942825}
-  m_Layer: 0
+  - component: {fileID: -5472032335559888877}
+  m_Layer: 9
   m_Name: Spike
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,3 +131,18 @@ CapsuleCollider:
   m_Height: 0.65585613
   m_Direction: 1
   m_Center: {x: 0, y: -0.8570719, z: 0.17207193}
+--- !u!114 &-5472032335559888877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5428983316064431507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3529f5e0ea7391f46b0f9ff1878ceace, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player:
+    serializedVersion: 2
+    m_Bits: 128
