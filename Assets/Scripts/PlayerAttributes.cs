@@ -29,7 +29,6 @@ public class PlayerAttributes : MonoBehaviour
     }
 
 
-
     public void PlayerPickUp(float karmaValue)
     {
 
@@ -40,5 +39,16 @@ public class PlayerAttributes : MonoBehaviour
     {
 
         healthbar.UpdateHealthBar(maxHealth, (currentHealth -= damageValue));
+    }
+
+    public void AttackBoost(float attackBoostValue)
+    {
+        Debug.Log("changes attack");
+        attackDamage += attackBoostValue;
+    }
+
+    public void SpeedBoost(float speedBoostValue)
+    {
+        speed += speedBoostValue;
     }
 }
