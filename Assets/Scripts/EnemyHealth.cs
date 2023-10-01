@@ -20,8 +20,11 @@ public class EnemyHealth : MonoBehaviour
             {
                 Instantiate(gameobject, this.transform);
             }
+
+            poof.gameObject.SetActive(true);
+            Destroy(this.gameObject, 1f);
         }
 
-        poof.gameObject.SetActive(true);
+
     }
 }
