@@ -767,6 +767,9 @@ GameObject:
   - component: {fileID: 3959100943845322700}
   - component: {fileID: 5520634878441469900}
   - component: {fileID: 5675208331089156710}
+  - component: {fileID: 8787113399148157338}
+  - component: {fileID: 7168438352645696951}
+  - component: {fileID: 1052758767436983787}
   m_Layer: 0
   m_Name: Player 2
   m_TagString: Untagged
@@ -921,5 +924,50 @@ MonoBehaviour:
     m_Bits: 256
   myAnimator: {fileID: 3424540894482051491}
   delay: 0.3
-  bc: {fileID: 0}
   isAttacking: 0
+--- !u!114 &8787113399148157338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152557317305943059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4488f890ea55244cb5701b0ec2b59f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthBar: {fileID: 602878056218686617}
+--- !u!114 &7168438352645696951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152557317305943059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7db9ae182a78794f82543208e068008, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 0
+  speed: 0
+  maxKarma: 100
+  currentKarma: 0
+  maxHealth: 100
+  currentHealth: 100
+  healthbar: {fileID: 8787113399148157338}
+  karmaMeter: {fileID: 1052758767436983787}
+--- !u!114 &1052758767436983787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152557317305943059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f682eb852d24d4ba31c234cac04443, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _karmaMeter: {fileID: 7075765541502317314}

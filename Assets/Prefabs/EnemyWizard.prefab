@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 7637968704529077382}
   - component: {fileID: 2908446906247720137}
   - component: {fileID: 1813920537941958538}
-  - component: {fileID: 6822786383887948635}
+  - component: {fileID: 5340281988839416678}
   m_Layer: 0
   m_Name: EnemyWizard
   m_TagString: Untagged
@@ -118,9 +118,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 1
-  m_Height: 1
+  m_Height: 4.9695115
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 1.4847558, z: 0}
 --- !u!114 &2908446906247720137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,6 +141,8 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 128
+  maxHealth: 100
+  currentHealth: 100
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 3
   timeBetweenAttacks: 1
@@ -171,7 +173,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &6822786383887948635
+--- !u!114 &5340281988839416678
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -180,12 +182,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2181722915239040247}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0368407461505c745926d026b95a97ef, type: 3}
+  m_Script: {fileID: 11500000, guid: a4488f890ea55244cb5701b0ec2b59f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _healthBar: {fileID: 3039177644844907603}
-  Loot: []
-  poof: {fileID: 725769198340866836}
 --- !u!1 &2847486232804486690
 GameObject:
   m_ObjectHideFlags: 0

@@ -133,6 +133,8 @@ GameObject:
   - component: {fileID: 4794653452588247634}
   - component: {fileID: 7378113502796788090}
   - component: {fileID: 5674655663512038520}
+  - component: {fileID: 4445587413428727295}
+  - component: {fileID: 6987054450768451778}
   m_Layer: 0
   m_Name: Player 3
   m_TagString: Untagged
@@ -307,7 +309,6 @@ MonoBehaviour:
     m_Bits: 256
   myAnimator: {fileID: 7190068808394013937}
   delay: 0.3
-  bc: {fileID: 5674655663512038520}
   isAttacking: 0
 --- !u!65 &5674655663512038520
 BoxCollider:
@@ -330,6 +331,39 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0326018, y: 1, z: 0.4390831}
   m_Center: {x: 0.6543224, y: 0, z: 0.004553199}
+--- !u!114 &4445587413428727295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494303106064358558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4488f890ea55244cb5701b0ec2b59f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthBar: {fileID: 6325016926107604486}
+--- !u!114 &6987054450768451778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494303106064358558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7db9ae182a78794f82543208e068008, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 0
+  speed: 0
+  maxKarma: 100
+  currentKarma: 0
+  maxHealth: 100
+  currentHealth: 100
+  healthbar: {fileID: 4445587413428727295}
+  karmaMeter: {fileID: 0}
 --- !u!1 &2713080913032724796
 GameObject:
   m_ObjectHideFlags: 0

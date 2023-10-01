@@ -39,6 +39,11 @@ public class PlayerAttributes : MonoBehaviour
     {
 
         healthbar.UpdateHealthBar(maxHealth, (currentHealth -= damageValue));
+
+        if(currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void AttackBoost(float attackBoostValue)
@@ -50,5 +55,10 @@ public class PlayerAttributes : MonoBehaviour
     public void SpeedBoost(float speedBoostValue)
     {
         speed += speedBoostValue;
+    }
+
+    public void HealthBoost(float healthBoostValue)
+    {
+        currentHealth += healthBoostValue;
     }
 }
