@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\RoomDoor.cs" />
     <Compile Include="Assets\Scripts\EnemyMeleeMovement.cs" />
     <Compile Include="Assets\Scripts\UI\AnimatedButtonHoverSelect.cs" />
+    <Compile Include="Assets\Scripts\HealthPickup.cs" />
     <Compile Include="Assets\Scripts\Utility\GameSceneManager.cs" />
     <Compile Include="Assets\Scripts\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\UI\PanelSwitcher.cs" />
