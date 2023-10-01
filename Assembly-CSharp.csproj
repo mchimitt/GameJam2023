@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>9.0</LangVersion>
@@ -68,14 +68,14 @@
     <Compile Include="Assets\Scripts\UI\PanelSwitcher.cs" />
     <Compile Include="Assets\Scripts\PlayerAttributes.cs" />
     <Compile Include="Assets\Scripts\PlayerJump.cs" />
+    <Compile Include="Assets\Scripts\AttackPickup.cs" />
     <Compile Include="Assets\Scripts\Healthbar.cs" />
     <Compile Include="Assets\Scripts\Targetable.cs" />
     <Compile Include="Assets\Scripts\PlayerSwitcher.cs" />
     <Compile Include="Assets\Scripts\RoomSwitch.cs" />
     <Compile Include="Assets\Scripts\EnemyAi.cs" />
     <Compile Include="Assets\Scripts\UI\MouseControllerManager.cs" />
-    <Compile Include="Assets\Scripts\EnemyHealth.cs" />
-    <Compile Include="Assets\Scripts\ItemPickup.cs" />
+    <Compile Include="Assets\Scripts\SpeedPickup.cs" />
     <Compile Include="Assets\Scripts\DamageVolume.cs" />
     <Compile Include="Assets\Scripts\KarmaMeter.cs" />
     <Compile Include="Assets\Scripts\PressurePlate.cs" />
