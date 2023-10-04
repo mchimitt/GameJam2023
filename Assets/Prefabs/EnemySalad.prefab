@@ -292,7 +292,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthBar: {fileID: 3039177644844907603}
-  Loot: []
+  Loot:
+  - {fileID: 7863909147949411003, guid: cd19b847dfe75914db024299a45fcf88, type: 3}
+  - {fileID: 7863909147949411003, guid: 22cf4a2bfb0ae294493b5ddf4ce3bc8a, type: 3}
   poof: {fileID: 3156215946662556438}
 --- !u!1 &2847486232804486690
 GameObject:

@@ -19,7 +19,7 @@ public class EnemyAi : MonoBehaviour
 
     private bool _hasTarget;
 
-    Healthbar healthbar;
+    [SerializeField] private EnemyHealth healthbar;
 
     //Patroling
     public Vector3 walkPoint;
@@ -55,7 +55,7 @@ public class EnemyAi : MonoBehaviour
             Debug.LogError("Animator component not found on the enemy object.");
         }
 
-        healthbar = GetComponent<Healthbar>();
+        healthbar = GetComponent<EnemyHealth>();
 
         agent.updateRotation = false;
     }
@@ -165,10 +165,10 @@ public class EnemyAi : MonoBehaviour
     {
         healthbar.UpdateHealthBar(maxHealth, (currentHealth -= damageValue));
 
-        if (currentHealth <= 0)
-        {
-            Destroy(this);
-        }
+        //if (currentHealth <= 0)
+        //{
+        //    Destroy(this);
+        //}
 
     }
 

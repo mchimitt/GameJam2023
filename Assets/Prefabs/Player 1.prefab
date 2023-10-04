@@ -409,7 +409,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterRenderer: {fileID: 2070971402777982238}
   weaponRenderer: {fileID: 2070971402777982238}
-  attackPoints: []
+  attackPoints:
+  - {fileID: 4102057267719004114}
+  - {fileID: 3978231850564845617}
+  - {fileID: 9055151908047870627}
+  - {fileID: 734982435607301254}
   playerInput: {fileID: 1400963721161363265}
   enemy:
     serializedVersion: 2

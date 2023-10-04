@@ -11,7 +11,11 @@ public class EnemyHealth : MonoBehaviour
  
     public void UpdateHealthBar(float maxHealth, float currentHealth)
     {
+        //if (_healthBar)
         _healthBar.fillAmount = currentHealth / maxHealth;
+
+        //else if (!_healthBar)
+        //    _healthBar = GetComponent
 
         if (currentHealth <= 0)
         {

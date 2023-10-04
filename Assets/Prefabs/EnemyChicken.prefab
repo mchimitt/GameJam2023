@@ -247,6 +247,8 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 128
+  maxHealth: 100
+  currentHealth: 100
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 3
   timeBetweenAttacks: 1
@@ -290,7 +292,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthBar: {fileID: 3039177644844907603}
-  Loot: []
+  Loot:
+  - {fileID: 7863909147949411003, guid: 0d0177bdc332af04f9ca67ba7b3ac265, type: 3}
+  - {fileID: 7863909147949411003, guid: 11a31f2a41d547a49886a40cd64ce6e4, type: 3}
   poof: {fileID: 3156215946662556438}
 --- !u!1 &2847486232804486690
 GameObject:
